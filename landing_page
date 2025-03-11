@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventus Westbrook - Exclusive 3BHK in Andheri</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .hero { background: url('project-image.jpg') no-repeat center center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; color: white; text-align: center; }
+        .hero-content { background: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 10px; }
+        .cta-button { background: #ff6a00; padding: 15px 30px; color: white; text-decoration: none; font-size: 18px; border-radius: 5px; }
+        .container { padding: 50px; text-align: center; }
+        .form-container { background: #f4f4f4; padding: 30px; border-radius: 10px; max-width: 400px; margin: auto; }
+        .form-container input, .form-container button { width: 100%; padding: 10px; margin: 10px 0; }
+        .features, .location, .contact { padding: 50px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Aventus Westbrook</h1>
+            <h2>Exclusive 3BHK Luxury Homes in Andheri</h2>
+            <p>953 SQ. FT | ₹3.25 CR (All-Inclusive) | O.C Received</p>
+            <a href="#lead-form" class="cta-button">Book a Site Visit</a>
+        </div>
+    </div>
+
+    <div class="container features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Spacious 3 BHK Residences (953 SQ. FT.)</li>
+            <li>100% O.C Received – No GST</li>
+            <li>World-Class Amenities: Gym, Pool, Clubhouse, Landscaped Gardens</li>
+            <li>Excellent Connectivity: Metro, Airport, Business Hubs</li>
+            <li>High-Security & Premium Finishes</li>
+        </ul>
+    </div>
+
+    <div class="container location">
+        <h2>Prime Location</h2>
+        <p>Located in the heart of Andheri, minutes from major highways, metro stations, and top schools.</p>
+        <img src="location-map.jpg" alt="Aventus Westbrook Location Map" width="80%">
+    </div>
+
+    <div id="lead-form" class="container form-container">
+        <h2>Enquire Now</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container contact">
+        <h2>Contact Us</h2>
+        <p>Call: +91 XXXXXXXXXX | WhatsApp: +91 XXXXXXXXXX</p>
+    </div>
+</body>
+</html>
